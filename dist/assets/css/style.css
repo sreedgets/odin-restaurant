@@ -6,11 +6,35 @@ blockquote,q { quotes: none;}
 blockquote:before,blockquote:after,q:before,q:after { content: ''; content: none;}
 table { border-collapse: collapse; border-spacing: 0;}
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ddd;
+}
+
+.main-nav {
+    height: 3.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .main-nav ul {
     list-style-type: none;
+    margin: 0 4em 0 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    font-size: 1.35em;
+    padding: 0 1.5em;
 }
 
 .main-nav li:hover {
     cursor: pointer;
+}
+
+.nav-logo {
+    font-family: 'Goblin One', cursive;
+    font-size: 1.6em;
+    margin: 0 0 0 1em;
 }

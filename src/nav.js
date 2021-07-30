@@ -3,6 +3,11 @@ function createNav(){
     const nav = document.createElement('nav');
     nav.classList = 'main-nav';
 
+    const logo = document.createElement('h1');
+    logo.classList = 'nav-logo';
+    logo.innerText = 'VERY HUMAN FOOD';
+    nav.appendChild(logo);
+
     const ul = document.createElement('ul');
     nav.appendChild(ul);
 

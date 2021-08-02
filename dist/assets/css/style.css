@@ -9,6 +9,9 @@ table { border-collapse: collapse; border-spacing: 0;}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ddd;
+    background-image: url(../img/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-nav {
@@ -16,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
 }
 
 .main-nav ul {

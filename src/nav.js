@@ -12,14 +12,17 @@ function createNav(){
     nav.appendChild(ul);
 
     const home = document.createElement('li');
+    home.classList = "home";
     home.innerText = 'Home';
     ul.appendChild(home);
 
     const menu = document.createElement('li');
+    menu.classList = "menu";
     menu.innerText = "Menu";
     ul.appendChild(menu);
 
     const contact = document.createElement('li');
+    contact.classList = "contact";
     contact.innerText = 'Contact';
     ul.appendChild(contact);
 

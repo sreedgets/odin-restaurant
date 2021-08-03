@@ -12,14 +12,23 @@ body {
     background-image: url(../img/bar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    color: #ddd;
+    font-size: 16px;
+}
+
+h2 {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
 }
 
 .main-nav {
-    height: 3.5em;
+    height: 6em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
+    background-color: rgba(0, 0, 0, .4);
+    border-bottom: 1px solid #fff;
 }
 
 .main-nav ul {
@@ -31,14 +40,70 @@ body {
     display: inline-block;
     font-size: 1.35em;
     padding: 0 1.5em;
+    margin: 0 .5em;
 }
 
 .main-nav li:hover {
     cursor: pointer;
+    font-weight: 600;
 }
 
 .nav-logo {
     font-family: 'Goblin One', cursive;
     font-size: 1.6em;
     margin: 0 0 0 1em;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content {
+    max-width: 600px;
+    width: 100%;
+    margin: 6em 0;
+    background-color: rgba(0, 0, 0, .9);
+    position: relative;
+    min-height: 525px;
+}
+
+.home-content h2 {
+    font-size: 3em;
+    letter-spacing: .3em;
+    padding: 0 0 1em 0;
+}
+
+.line {
+    position: absolute;
+    border-left: 2px solid #fff;
+    left: 50%;
+    top: 7.5em;
+    height: 5em;
+}
+
+.home-content p {
+    padding: 0 4em;
+    margin: 0 0 2em 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    min-height: 8em;
 }

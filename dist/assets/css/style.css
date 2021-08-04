@@ -21,13 +21,20 @@ h2 {
     margin-bottom: 1.25em;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
 .main-nav {
     height: 6em;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .6);
     border-bottom: 1px solid #fff;
 }
 
@@ -45,7 +52,6 @@ h2 {
 
 .main-nav li:hover {
     cursor: pointer;
-    font-weight: 600;
 }
 
 .nav-logo {
@@ -64,7 +70,7 @@ h2 {
     max-width: 600px;
     width: 100%;
     margin: 6em 0;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .8);
     position: relative;
     min-height: 525px;
 }
@@ -92,10 +98,23 @@ h2 {
     letter-spacing: 1px;
 }
 
+.menu-content {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 25em;
+    background: rgba(0, 0, 0, .8);
+
+}
+
 .welcome {
     text-align: center;
 }
 
+.menu-wrapper {
+    width: 100%;
+    margin: 2em 0;
+}
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
